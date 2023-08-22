@@ -1,0 +1,31 @@
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+div{
+    border: 10px dashed black;
+    height: 85vh;
+    padding: 25px;
+    background-color: aqua;
+
+    background-image: url(../../images/wp4322015-marvel-4k-wallpapers.jpg),url(../../images/wp6303741-marvel-4k-wallpapers.jpg),url(../../images/wp4322015-marvel-4k-wallpapers.jpg);
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-clip: content-box,content-box,content-box;
+    background-position: left top,center center,bottom right;
+    background-size: 25%,40%,25%; 
+    background-attachment:fixed ;
+       
+}
+h1::before{
+    content: "***";
+}
+h1::after{
+    content: "***";
+}
+
+div >p{
+    color: blue;
+    font-size: xx-large;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            background-color:bisque;
+        }
+
+        table,th,td{
+            border: 1px solid black;
+            border-spacing: 10px;;
+        }
+        th,td{
+            padding:10px;
+        }
+        td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Emp_id</th>
+                <th>Emp_name</th>
+                <th>Location</th>
+                <th>C.LOCATION</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>smith</td>
+                <td colspan="2" style="text-align: center;">chennai</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Danny</td>
+                <td>trichy</td>
+                <td rowspan="4">chennai</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>David</td>
+                <td>theni</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Benny</td>
+                <td rowspan="2" style="text-align: center;">coimbatore</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>john</td>
+            </tr>
+        </tbody
+    </table>
+</body>
+</html>

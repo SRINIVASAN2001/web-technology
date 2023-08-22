@@ -1,0 +1,31 @@
+/*
+input:enabled{
+    background-color: aqua;
+}
+
+input:disabled{
+    background-color: yellow;
+}
+
+input:read-only{
+    background-color: red;
+}
+
+input:read-write{
+    background-color: blue;
+}
+
+input:focus{
+    background-color: pink;
+}
+
+input:placeholder-shown{
+    background-color: aquamarine;
+}
+
+input:required{
+    background-color: cadetblue;
+}
+*
+
+

@@ -1,0 +1,36 @@
+div{
+    background-image: url(./../../images/wp4322015-marvel-4k-wallpapers.jpg);
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    border: 1px solid red;
+
+    /* background-size: contain; */
+    /* its show th original image without any changes */
+    /* background-size: cover; */
+    /* it will cover the entire page to 100%,but some part of images are cutted */
+    /* background-size: 100%; */
+    /* both cover and 100% are same */
+    /* background-size: 100% 100%; */
+    /* x-axis=100% y-axis=100%  if we want to place perfectly*/
+
+    background-size: contain;
+    /* background-position: top right; */
+    /* background-position: left center; */
+    /* it is used to place th image anywhere on the page using values */
+
+    /* background-attachment: fixed; */
+    /* it will fix the image and wont be able to scrolled */
+    background-attachment: scroll;
+
+    /* background-clip: border-box; */
+    /* the image will starts from the border */
+    /* background-clip: padding-box; */
+    /* the image will starts after the border line */
+    background-clip: content-box;
+    /* the image will starts from the content */
+
+}

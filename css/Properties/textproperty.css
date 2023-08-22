@@ -1,0 +1,42 @@
+p{
+    color: red;
+    /* text-align: center; */
+    text-decoration: none;
+    text-shadow: 1px 1px black; 
+    /*Three attributes of text shadow is x-axis(px),y-axis(px),color */
+    font-size: larger;
+
+    /* text-indent: 50px;  */
+    /* It will indent the first word */
+
+    text-transform: capitalize;
+    /* It will make the words capitalizd,uppercase,lowercase */
+
+    /* line-height: 50px; */
+
+    /* word-spacing: 25px; */
+
+    /* letter-spacing: 25px; */
+
+    /* word-wrap:break-word; */
+    /* word-wrap: normal; */
+    /* word wrap will break each word after the space */
+    border: 1px solid black;
+    /* width: 100px; */
+
+    /* word-break: break-all; */
+    /* word-break: keep-all; */
+    /* The word break can break the word randomly based on their preference */
+
+    /* writing-mode: horizontal-tb; */
+    /* writing-mode: vertical-lr; */
+    /* writing-mode: vertical-rl; */
+    /* writing-mode: sideways-lr; */
+}
+
+
+
+
+
+
+

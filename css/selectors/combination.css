@@ -1,0 +1,34 @@
+/* Descended Selector = select both direct and indirect child */
+
+
+/* div p{
+    background-color: brown;
+} */
+
+
+/* Child selector = selects only direct child */
+
+
+/* div>p{
+    background-color: yellow;
+} */
+
+
+/* Adjacent selector = selects the next element */
+/* p+p{
+    background-color: yellow;
+} */
+
+/* General selector = selects both the siblings */
+/* div~p{
+    background-color: yellow;
+} */
+
+
+div span>div>aside>details>p{
+    background-color: yellow;
+}
+
+div>span div>b{
+    background-color: rgb(255, 0, 140);
+}

@@ -1,0 +1,47 @@
+img{
+    height: 100px;
+    width: 300px;
+}
+ /* type 1 = just with attribute selecting element  */
+/* img[alt]{
+    border: 5px solid red;
+} */
+
+/* type 2 = selecting elements with values of attribute */
+/* img[alt="pic"]{
+    border: 5px solid blue;
+} */
+
+/* type 3 = select using prefix of the attribute value */
+ img[alt^="road"]
+{
+    border: 5px solid red;
+    height: 500px;
+} 
+
+/* type 4 = select using suffix word */
+img[alt$="road"]
+{
+    border: 5px solid tomato;
+}
+
+ /* type 5 =select the value using - hypen * |- vertical line or pipeline */
+
+img[alt|="road"]
+{
+    border: 5px solid orange;
+}
+
+/* type 6 = select the values using space */
+
+img[alt~="king"]
+{
+    border: 5px solid green;
+}
+
+/* 
+type 7 = select the attribute which contains the given particular value */
+ img[alt*="map"]
+{
+    border: 5px solid blueviolet;
+}

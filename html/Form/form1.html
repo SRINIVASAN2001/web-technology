@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            width: 50vw;
+        }
+    </style>
+</head>
+<body>
+
+
+<fieldset>
+        <legend><h1>Student Details</h1></legend>
+    <form action="#" method="" autocomplete="on" >
+        <!-- nonvalidate make the form to un follow the protocol, can submit any dataformat in textfield and submit -->
+        <label for="user_fname">FirstName :</label>
+        <input type="text" id="user_fname" name="user_first_name" placeholder="enter first name" autofocus required>
+        <!-- autofocus attribute will make the foucus automatically -->
+        <!-- disable will make the input field disabled -->
+        <!-- required attribute will make the input field manditory -->
+        <br>
+        <br>
+
+<!-- Defualt readonly -->
+        <label for="user_lname">LastName </label>
+        <input type="text" id="user_lname" name="user_last_name" value="Smith" readonly>
+        <!-- readonly make the value fixed and uneditable -->
+        <br>
+        <br>
+
+<!-- D-O-B -->
+        <label for="user_dob">DateofBirth </label>
+        <input type="datetime-local" name="user_date_of_birth" id="user_dob">
+        <br>
+        <br>
+
+<!-- Radio Btn -->
+        <label for="user_female">Gender </label>
+        <input type="radio" name="user_gen" id="user_gender" value="Male">Male
+        <input type="radio" name="user_gen" id="user_female" value="Female">Female
+        <input type="radio" name="user_gen" id="user_other" value="other">Other
+        <br>
+        <br>
+
+<!-- Email -->
+        <label for="user_mail">Email </label>
+        <input type="email" name="user_email" id="user_mail" placeholder="enter email">
+        <br>
+        <br>
+
+<!-- Age -->
+        <label for="user_age">Age</label>
+        <input type="number" name="user_age_current" id="user_age" placeholder="select age" step="5">
+        <!-- step will increse the option with the given number (5,10,15.....) -->
+        <br>
+        <br>
+
+<!-- Drop Down Box -->
+        <label for="user_course">Choose Course</label>
+        <select name="user_select_course" id="user_course" >
+            <option value="html">Html</option>
+            <option value="Css">CSS</option>
+            <option value="JS">JavaScript</option>
+        </select>
+        <br>
+        <br>
+
+<!-- Check box  -->
+        <label for="user_qulification">Qualification</label>
+        <input type="checkbox" 
+        name="user_qulification_msc" 
+        id="user_qualification">Msc
+        <input type="checkbox" 
+        name="user_qulification_bsc"
+         id="user_qualification">Bsc
+        <input type="checkbox" 
+        name="user_qulification_others" 
+        id="user_qualification">Other
+        <br>
+        <br>
+
+<!-- phone  -->
+        <label for="user_mobile">Phn :</label>
+        <input type="tel" name="" id="" pattern="['0-9'][10]">
+        <!-- Patter is an attribute used to enter the regex -->
+        <br>
+        <br>
+
+<!-- Address  -->
+        <label for="user_hoemeaddress">Address:</label>
+        <textarea 
+        name="user_mailing_address_home" 
+        id="user_homeaddress" 
+        cols="50" 
+        rows="10"
+        placeholder="enter the address">
+        </textarea>
+        <br>
+        <br>
+
+        
+        <label for="user_file">Attach Resume</label>
+        <input type="file" name="" id="" placeholder="select file">
+        <br>
+        <br>
+
+
+
+        <input type="submit" name="" id="">
+
+
+        <input type="reset" name="" id="">
+    </form>
+</fieldset>
+    
+</body>
+</html>
+

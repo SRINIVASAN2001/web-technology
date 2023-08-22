@@ -1,0 +1,39 @@
+/*
+div >.child:first-child{
+    background-color: rebeccapurple;
+}
+
+div >.child:last-child{
+    background-color: red;
+}
+/* WE can change the number to access the intermdeiate element in div block */
+/*
+div >.child:nth-child(3){  
+    background-color: blue;
+}
+
+div >i:first-of-type{
+    background-color: yellow;
+}
+
+div >i:last-of-type{
+    background-color: green;
+}
+*/
+
+/* div >i:nth-of-type(2){
+    background-color: blueviolet;
+} */
+/*
+body i:first-of-type{
+    background-color: red;
+}
+
+body i:last-of-type{
+    background-color: aqua;
+}
+*/
+body i:nth-of-type(2){
+    background-color: brown;
+}
+
